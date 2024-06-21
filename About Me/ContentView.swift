@@ -19,10 +19,13 @@ struct ContentView: View {
                     .cornerRadius(20)
                 
                 Text("~ Minyang Chu ~")
-                    .font(.system(.title, design: .rounded))
+                    .font(.system(.title2, design: .rounded))
+                    .fontWeight(.bold)
+                    
                 
-                Text("Hello! My name is Minyang, and I'm a rising 8th grader. Let's learn more about me yay 🫠")
+                Text("Hello! My name is Minyang, and I'm a rising 8th grader. Let's learn more about me yay")
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
                 
                 HStack{
                     Image("flute")
@@ -34,6 +37,7 @@ struct ContentView: View {
                     
                     Text("When I joined band in 6th grade, nearly 3 years ago, I started playing the flute. I've been playing in my school's band ever since.")
                         .font(.subheadline)
+                        .fixedSize(horizontal: false, vertical: true)
                     
                 }
                 
@@ -46,6 +50,7 @@ struct ContentView: View {
                     
                     Text("I picked up crocheting in March. I love turning a ball of yarn into a cute stuffed animal! I am a crafty person in general.")
                         .font(.subheadline)
+                        .fixedSize(horizontal: false, vertical: true)
                     
                     
                 }
@@ -59,6 +64,7 @@ struct ContentView: View {
                     
                     Text("I am IN LOVE with spicy food! Some of my favorites are hot pot, hot & sour soup, mapo tofu, and hot & sour vermicelli :D")
                         .font(.subheadline)
+                        .fixedSize(horizontal: false, vertical: true)
                     
                     
                 }
@@ -72,6 +78,7 @@ struct ContentView: View {
                     
                     Text("Bookworm :P Some personal favorites: Shakespeare and the Hunger Games, Divergent, and the Inheritance Games series.")
                         .font(.subheadline)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
                 
                 
